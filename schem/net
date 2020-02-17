@@ -1,0 +1,26 @@
+Netlist
+
+Exported from untitled.sch at 2020-02-16 10:57 PM
+
+EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Net      Part     Pad      Pin        Sheet
+
+N$1      NT3H1101 LA       LA         1
+         U$2      P$1      P$1        1
+
+N$2      NT3H1101 LB       LB         1
+         U$2      P$2      P$2        1
+
+N$3      LED1     A        A          1
+         R1       1        1          1
+
+N$4      C1       1        1          1
+         NT3H1101 VCC      VCC        1
+         NT3H1101 VOUT     VOUT       1
+         R1       2        2          1
+
+N$5      C1       2        2          1
+         LED1     C        C          1
+         NT3H1101 VSS      VSS        1
+
